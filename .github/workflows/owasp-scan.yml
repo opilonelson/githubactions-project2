@@ -20,7 +20,7 @@ jobs:
           cmd_options: "-a"                                    # active scan (adds attacks)
           issue_title: "ZAP Full Scan Report"
           fail_action: false                                   # don’t fail the workflow if issues found
-          allow_issue_writing: true                            # auto-create GitHub issues
+          allow_issue_writing: false # was true before                  # auto-create GitHub issues
           artifact_name: "zap_scan_report"
 
                 
